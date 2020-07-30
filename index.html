@@ -1,1 +1,28 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>WebRTC Demo - Sender</title>
+
+</head>
+
+<body>
+
+  <h1>WebRTC Demo - Sender</h1>
+
+  <video id="localVideo" autoplay></video>
+  <video id="remoteVideo" autoplay></video>
+
+  <br>
+  <p hidden id="PsenderID"></p>
+
+  <div>
+    <button id="startButton">Start</button>
+  </div>
+
+  <script src="js/adapter-latest.js"></script>
+  <script src="js/peerjs.min.js"></script>
+  <script src="js/sender.js"></script>
+</body>
+</html>

@@ -10,7 +10,7 @@ callButton.addEventListener('click', function () {
     callButton.disabled = true;
 
     var peer = new Peer(senderId.value, {
-        host: 'localhost',
+        host: '165.22.103.228',
         port: 9000,
         path: '/myapp'
     });

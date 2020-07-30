@@ -10,7 +10,7 @@ startButton.addEventListener('click', function () {
   startButton.disabled = true;
   var senderId = makeid(10);
     var peer = new Peer(senderId, {
-        host: 'localhost',
+        host: '165.22.103.228',
         port: 9000,
         path: '/myapp'
     });
